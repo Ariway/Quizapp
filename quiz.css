@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-image:url("phomto.jpg");
+}
+
+.quiz{
+    background-color: rgb(240, 234, 42);
+    margin: 100px auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.quiz h1{
+    color: rgb(27, 2, 123);
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(34, 4, 41);
+}
+
+.container{
+    margin-top: 10px;
+    padding:10px 0px;
+}
+
+.container h2{
+    font-size: 20px;
+    color:black;
+}
+
+.answers{
+    padding: 10px 0px;
+    margin: 10px auto;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid rgb(64, 19, 66);
+    color:black;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover:not([disabled]){
+    background-color: rgb(89, 216, 208);
+    color: rgb(253, 211, 255);
+    border: 1px solid rgb(253, 211, 255);
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next{
+    padding: 10px 20px;
+    width: 25%;
+    margin: 10px auto 0;
+    background-color: rgb(64, 19, 66);
+    color: rgb(253, 211, 255);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    display: none;
+}
+
+.correct{
+    background-color: rgb(191, 237, 191);
+    color: darkgreen;
+    border: 1px solid green;
+}
+
+.incorrect{
+    background-color: rgb(254, 184, 184);
+    color: rgb(158, 2, 2);
+    border: 1px solid rgb(158, 2, 2);
+}
